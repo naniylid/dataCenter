@@ -1,0 +1,21 @@
+.pagination {
+    @apply flex w-full justify-end mt-4;
+}
+.container {
+    @apply flex justify-between items-center;
+}
+
+.page {
+    @apply flex justify-between;
+}
+.page.active {
+    @apply text-[#89c4ff];
+}
+
+.page:hover {
+    @apply text-[#89c4ff];
+}
+
+.arrow {
+    @apply flex justify-center;
+}

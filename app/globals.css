@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'PingFang HK';
+        src: url('../public/font/PingFangHK.ttf') format('truetype'),
+            url('../public/font/PingFangHK.woff') format('woff');
+    }
+}
+
+@layer base {
+    :root {
+        --background: #000;
+        --foreground: #fff;
+    }
+}
+@layer base {
+    body {
+        @apply font-poppins antialiased bg-background text-foreground;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
